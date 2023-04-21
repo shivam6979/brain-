@@ -1,0 +1,43 @@
+
+.nav{
+    display: grid;
+    grid-template-columns: 10px 50px 10px;
+    grid-column-gap: 100px;
+    align-content: space-between;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    padding: 1.1em;
+    font-size: 1.2rem;
+    width:auto ;
+}
+.uber{
+    grid-template-columns: 1/2;
+
+}
+.input{
+    background-color: black;
+    border: 0px solid black;
+    padding: 0px;
+    font-size: 1.2rem;
+    color: white;
+    width: 8%;
+
+}
+.products{
+    display: flex;
+    flex-direction: row;
+}
+.language{
+    display: flex;
+    flex-direction: row;
+}
+.language img{
+    width: 2.5em;
+    height: 2rem;
+}
+.products img{
+    width: 2.5em;
+    height: 2rem;
+}
